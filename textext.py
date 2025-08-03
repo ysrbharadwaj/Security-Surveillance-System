@@ -9,7 +9,7 @@ def textext(link):
 
 
     headers = {
-        "apikey": "a2d0OFkMcUP8jHa3PgvJ3kkTMlaUuJ8k"
+        "apikey": "api"
     }
 
     response = requests.post(url, headers=headers, data=file_content)
@@ -74,6 +74,7 @@ def textext(link):
 
 if __name__=='__main__':
     e=textext()
+
 
 
 
